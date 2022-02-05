@@ -8,7 +8,7 @@
     {
       "id": "每日鸡汤",
       "name": "每日鸡汤",
-      "keys": ["JUHE_Soup_Key"],
+      "keys": ["soup_key"],
       "scripts": [
         {
           "name": "每日鸡汤",
