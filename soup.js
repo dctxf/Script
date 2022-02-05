@@ -1,5 +1,6 @@
 const $ = new API("soup", true);
 const key = $.read("JUHE_Soup_Key");
+$.log(key);
 const BASE_URL = `https://apis.juhe.cn/fapig/soup/query?key=${key}`;
 const TITLE = "每日鸡汤";
 
