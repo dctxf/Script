@@ -1,0 +1,9 @@
+/node_modules
+# production
+/build
+/.idea
+/.history
+/.output
+*.json
+test.js
+.DS_Store
