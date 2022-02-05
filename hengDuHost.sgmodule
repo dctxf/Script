@@ -1,0 +1,3 @@
+# 衡度host指向
+[Host]
+*.hengdutech.com = server:223.6.6.6
