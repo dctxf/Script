@@ -6,7 +6,7 @@
   "repo": "https://github.com/dctxf/Script",
   "apps": [
     {
-      "id": "每日鸡汤",
+      "id": "soup",
       "name": "每日鸡汤",
       "keys": ["soup_key"],
       "scripts": [
