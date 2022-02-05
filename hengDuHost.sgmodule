@@ -1,3 +1,5 @@
-# 衡度host指向
+#!name=衡度host
+#!desc=https://github.com/dctxf/Script.git
+
 [Host]
 *.hengdutech.com = server:223.6.6.6
