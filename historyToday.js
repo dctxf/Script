@@ -11,7 +11,7 @@ const BASE_URL = "https://www.ipip5.com/today/api.php";
       return `[${i.year}] ${i.title}`;
     })
     .slice(0, -1)
-    .join("\n");
+    .join("     ");
   $.notify(title, subtitle, content);
   $.done();
 })($)
