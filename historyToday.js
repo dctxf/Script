@@ -20,6 +20,7 @@ const BASE_URL = "http://api.bubaijun.com/api/v1/today_in_history_all";
 
 function getHistoryToday(token) {
   return $.http.get(`${BASE_URL}?token=${token}`).then(({ body }) => {
+    $.log(body);
     const response = JSON.parse(body);
     return response;
   });
