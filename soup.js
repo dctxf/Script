@@ -1,10 +1,10 @@
 const $ = new API("soup", true);
-const key = $.read("JUHE_Soup_Key");
-const BASE_URL = `https://apis.juhe.cn/fapig/soup/query?key=${key}`;
-const TITLE = "每日鸡汤";
 
 !(async ($) => {
-  const obj = await getSoup();
+  const key = $.read("JUHE_Soup_Key");
+  const url = `https://apis.juhe.cn/fapig/soup/query?key=${key}`;
+  const TITLE = "每日鸡汤";
+  const obj = await getSoup(url);
   $.log(obj);
   const title = TITLE;
   const subtitle = obj.result.text;
@@ -17,8 +17,8 @@ const TITLE = "每日鸡汤";
   })
   .finally($.done());
 
-function getSoup() {
-  return $.http.get(`${BASE_URL}`).then(({ body }) => {
+function getSoup(url) {
+  return $.http.get(`${url}`).then(({ body }) => {
     const response = JSON.parse(body);
     if (response.result) return response;
     return Promise.reject(new Error(response.reason));
