@@ -8,7 +8,7 @@ const BASE_URL = "https://www.ipip5.com/today/api.php";
   const subtitle = obj.today;
   const content = obj.result
     .map((i) => {
-      return `${i.title}`;
+      return `[${i.year}] ${i.title}`;
     })
     .join("\n");
   !$.env.isSurge
