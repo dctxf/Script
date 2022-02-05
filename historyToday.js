@@ -6,7 +6,11 @@ const BASE_URL = "https://www.ipip5.com/today/api.php";
   $.log(obj);
   const title = "历史上的今天";
   const subtitle = obj.today;
-  const content = obj.result;
+  const content = obj.result
+    .map((i) => {
+      return `${i.title}`;
+    })
+    .join("\n");
   !$.env.isSurge
     ? $.notify(title, subtitle, content, {
         "media-url": mediaImg || dayImg,
