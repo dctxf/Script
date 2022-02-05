@@ -4,6 +4,9 @@ const BASE_URL = "https://www.ipip5.com/today/api.php";
 !(async ($) => {
   const obj = await getHistoryToday();
   $.log(obj);
+  const title = "历史上的今天";
+  const subtitle = obj.today;
+  const content = obj.result;
   !$.env.isSurge
     ? $.notify(title, subtitle, content, {
         "media-url": mediaImg || dayImg,
