@@ -10,12 +10,9 @@ const BASE_URL = "https://www.ipip5.com/today/api.php";
     .map((i) => {
       return `[${i.year}] ${i.title}`;
     })
+    .slice(0, -1)
     .join("\n");
-  !$.env.isSurge
-    ? $.notify(title, subtitle, content, {
-        "media-url": mediaImg || dayImg,
-      })
-    : $.notify(title, subtitle, content);
+  $.notify(title, subtitle, content);
   $.done();
 })($)
   .catch((err) => {
