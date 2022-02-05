@@ -6,9 +6,7 @@ const $ = new API("soup", true);
   const TITLE = "每日鸡汤";
   const obj = await getSoup(url);
   $.log(obj);
-  const title = TITLE;
-  const subtitle = obj.result.text;
-  $.notify(title, subtitle);
+  $.notify(TITLE, "", obj.result.text);
   $.done();
 })($)
   .catch((err) => {
