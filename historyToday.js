@@ -1,9 +1,8 @@
 const $ = new API("historyToday", true);
-const TOKEN = "a2ef0551ce85f6bea2c4467a3bd94a9c";
-const BASE_URL = "http://api.bubaijun.com/api/v1/today_in_history_all";
+const BASE_URL = "https://www.ipip5.com/today/api.php";
 
 !(async ($) => {
-  const obj = await getHistoryToday(TOKEN);
+  const obj = await getHistoryToday();
   $.log(obj);
   !$.env.isSurge
     ? $.notify(title, subtitle, content, {
@@ -19,8 +18,7 @@ const BASE_URL = "http://api.bubaijun.com/api/v1/today_in_history_all";
   .finally($.done());
 
 function getHistoryToday(token) {
-  return $.http.get(`${BASE_URL}?token=${token}`).then(({ body }) => {
-    $.log(body);
+  return $.http.get(`${BASE_URL}?type=json`).then(({ body }) => {
     const response = JSON.parse(body);
     return response;
   });
