@@ -7,3 +7,4 @@
 *.json
 test.js
 .DS_Store
+!dctxf.box.json

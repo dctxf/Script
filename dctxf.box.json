@@ -1,0 +1,31 @@
+{
+  "id": "dctxf.app.sub",
+  "name": "dctxf 应用订阅",
+  "author": "@dctxf",
+  "icon": "https://raw.githubusercontent.com/dctxf/surge/main/logo.png",
+  "repo": "https://github.com/dctxf/Script",
+  "apps": [
+    {
+      "id": "每日鸡汤",
+      "name": "每日鸡汤",
+      "keys": ["key", "soup"],
+      "settings": [
+        {
+          "id": "JUHE_Soup_Key",
+          "name": "聚合每日鸡汤key",
+          "val": true,
+          "type": "string",
+          "desc": "聚合每日鸡汤key"
+        }
+      ],
+      "scripts": [
+        {
+          "name": "每日鸡汤",
+          "script": "https://raw.githubusercontent.com/dctxf/Script/master/soup.js"
+        }
+      ],
+      "author": "@dctxf",
+      "repo": "https://github.com/dctxf/Script.git"
+    }
+  ]
+}
