@@ -1,7 +1,7 @@
 const $ = new API("soup", true);
 
 !(async ($) => {
-  const key = $.read("soup_key");
+  const key = $.read("#soup_key");
   const url = `https://apis.juhe.cn/fapig/soup/query?key=${key}`;
   const TITLE = "每日鸡汤";
   const obj = await getSoup(url);
