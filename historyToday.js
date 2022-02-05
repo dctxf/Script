@@ -1,6 +1,6 @@
 const $ = new API("historyToday", true);
 const TOKEN = "a2ef0551ce85f6bea2c4467a3bd94a9c";
-const BASE_URL = "//api.bubaijun.com/api/v1/today_in_history_all";
+const BASE_URL = "http://api.bubaijun.com/api/v1/today_in_history_all";
 
 !(async ($) => {
   const obj = await getHistoryToday(TOKEN);
