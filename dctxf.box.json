@@ -17,19 +17,6 @@
       ],
       "author": "@dctxf",
       "repo": "https://github.com/dctxf/Script.git"
-    },
-    {
-      "id": "hd",
-      "name": "衡度",
-      "keys": ["hd_stat_url"],
-      "scripts": [
-        {
-          "name": "衡度每日数据",
-          "script": "https://raw.githubusercontent.com/dctxf/Script/master/hd.js"
-        }
-      ],
-      "author": "@dctxf",
-      "repo": "https://github.com/dctxf/Script.git"
     }
   ]
 }
