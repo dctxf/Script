@@ -1,0 +1,5 @@
+#!name=自用
+#!desc=https://github.com/dctxf/Script.git
+
+[Rule]
+GEOIP,US,Proxy
