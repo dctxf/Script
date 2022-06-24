@@ -2,4 +2,4 @@
 #!desc=https://github.com/dctxf/Script.git
 
 [Rule]
-GEOIP,US,Proxy
+DOMAIN-SUFFIX,ant.design,Proxy
