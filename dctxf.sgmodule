@@ -1,5 +1,5 @@
 #!name=自用模块
-#!desc=https://github.com/dctxf/Script.git
+#!desc=https://raw.githubusercontent.com/dctxf/Script/master/dctxf.sgmodule
 
 [Rule]
 DOMAIN-SUFFIX,ant.design,Proxy
