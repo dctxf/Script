@@ -4,3 +4,4 @@
 [Rule]
 DOMAIN-SUFFIX,ant.design,Proxy
 DOMAIN-SUFFIX,behance.net,Proxy
+DOMAIN-SUFFIX,spring.io,Proxy
