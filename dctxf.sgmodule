@@ -6,4 +6,7 @@ DOMAIN-SUFFIX,ant.design,Proxy
 DOMAIN-SUFFIX,behance.net,Proxy
 DOMAIN-SUFFIX,spring.io,Proxy
 DOMAIN-SUFFIX,aliyun.com,Direct
+# js.org
 DOMAIN-SUFFIX,js.org,Direct
+# 阮一峰官网
+DOMAIN-SUFFIX,ruanyifeng.com,Direct
