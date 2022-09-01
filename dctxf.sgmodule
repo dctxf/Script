@@ -5,6 +5,8 @@
 DOMAIN-SUFFIX,ant.design,Proxy
 DOMAIN-SUFFIX,behance.net,Proxy
 DOMAIN-SUFFIX,spring.io,Proxy
+DOMAIN-SUFFIX,mvnrepository.com,Proxy
+DOMAIN-SUFFIX,gitkraken.com,Proxy
 DOMAIN-SUFFIX,aliyun.com,Direct
 # js.org
 DOMAIN-SUFFIX,js.org,Direct
