@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,1zilc.top,Proxy
 DOMAIN-SUFFIX,florentcrivello.com,Proxy
 DOMAIN-SUFFIX,npmjs.com,Proxy
 DOMAIN-SUFFIX,rollupjs.org,Proxy
+DOMAIN-SUFFIX,ruanyifeng.com,Proxy
 DOMAIN-SUFFIX,aliyun.com,Direct
 # js.org
 DOMAIN-SUFFIX,js.org,Direct
