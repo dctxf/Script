@@ -16,8 +16,9 @@ DOMAIN-SUFFIX,pnpm.io,Proxy
 DOMAIN-SUFFIX,nodejs.org,Proxy
 DOMAIN-SUFFIX,umijs.org,Proxy
 DOMAIN-SUFFIX,webpack.js.org,Proxy
-DOMAIN-SUFFIX,oculus.com,Proxy
 DOMAIN-SUFFIX,aliyun.com,Direct
+# oculus
+DOMAIN-SUFFIX,oculus.com,Proxy
 # js.org
 DOMAIN-SUFFIX,js.org,Direct
 # 阮一峰官网
