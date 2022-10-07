@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,ruanyifeng.com,Proxy
 DOMAIN-SUFFIX,pnpm.io,Proxy
 DOMAIN-SUFFIX,nodejs.org,Proxy
 DOMAIN-SUFFIX,umijs.org,Proxy
+DOMAIN-SUFFIX,vrmoo.cn,Proxy
 DOMAIN-SUFFIX,webpack.js.org,Proxy
 DOMAIN-SUFFIX,aliyun.com,Direct
 # oculus
