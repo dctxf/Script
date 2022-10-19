@@ -17,6 +17,10 @@ DOMAIN-SUFFIX,nodejs.org,Proxy
 DOMAIN-SUFFIX,umijs.org,Proxy
 DOMAIN-SUFFIX,vrmoo.cn,Proxy
 DOMAIN-SUFFIX,webpack.js.org,Proxy
+DOMAIN-SUFFIX,zoomquiet.io,Proxy
+DOMAIN-SUFFIX,fom.fm,Proxy
+DOMAIN-SUFFIX,producthunt.com,Proxy
+DOMAIN-SUFFIX,evilcos.me,Proxy
 DOMAIN-SUFFIX,aliyun.com,Direct
 # oculus
 DOMAIN-SUFFIX,oculus.com,Proxy
