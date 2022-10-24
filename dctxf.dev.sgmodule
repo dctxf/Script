@@ -3,4 +3,7 @@
 
 [host]
 xzr-admin-test.xinzhirun.cn = 192.168.1.64
-dealer-moblie-test = 192.168.1.64
+dealer-moblie-test.xinzhirun.cn = 192.168.1.64
+
+[Rule]
+DOMAIN-SUFFIX,xinzhirun.cn,Direct
