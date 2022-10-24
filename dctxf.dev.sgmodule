@@ -1,0 +1,6 @@
+#!name=dctxf开发使用模块
+#!desc=https://raw.githubusercontent.com/dctxf/Script/master/dctxf.dev.sgmodule
+
+[host]
+xzr-admin-test.xinzhirun.cn = 192.168.1.64
+dealer-moblie-test = 192.168.1.64
