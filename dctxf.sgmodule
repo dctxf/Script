@@ -24,6 +24,8 @@ DOMAIN-SUFFIX,evilcos.me,Proxy
 # snipd
 DOMAIN-SUFFIX,snipd.com,Proxy
 DOMAIN-SUFFIX,simplecastaudio.com,Proxy
+DOMAIN-SUFFIX,weserv.nl,Proxy
+DOMAIN-SUFFIX,anchor.fm,Proxy
 # aliyun
 DOMAIN-SUFFIX,aliyun.com,Direct
 # oculus
