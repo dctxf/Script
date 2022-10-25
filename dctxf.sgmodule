@@ -21,6 +21,7 @@ DOMAIN-SUFFIX,zoomquiet.io,Proxy
 DOMAIN-SUFFIX,fom.fm,Proxy
 DOMAIN-SUFFIX,producthunt.com,Proxy
 DOMAIN-SUFFIX,evilcos.me,Proxy
+DOMAIN-SUFFIX,snipd.com,Proxy
 DOMAIN-SUFFIX,aliyun.com,Direct
 # oculus
 DOMAIN-SUFFIX,oculus.com,Proxy
