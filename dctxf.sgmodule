@@ -36,3 +36,5 @@ DOMAIN-SUFFIX,js.org,Direct
 DOMAIN-SUFFIX,ruanyifeng.com,Direct
 # notion
 DOMAIN-SUFFIX,notion.site,Proxy
+# codesandbox
+DOMAIN-SUFFIX,codesandbox.io,Proxy
